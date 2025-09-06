@@ -13,13 +13,26 @@ This repository hosts three related projects that study long-term outcomes after
 ----
 ### Thesis Project Overview
 
-| Project                                      | Slug                  | Core question                                                                                                                                                            | Primary methods                                                                                                                    | Status         |
+| Project                                      | Branch                  | Core question                                                                                                                                                            | Primary methods                                                                                                                    | Status         |
 | -------------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | **A. Pre-injury Health Clusters & Outcomes** | `preinjury_clusters`  | Can unsupervised ML on **pre-injury** data reveal clinically meaningful clusters of older adults that predict survival and functional independence?                      | Feature construction from 2-yr lookback; clustering (e.g., OPTICS/K-Prototypes/UMAP); cluster stability; association with outcomes | 🟢 active      |
 | **B. Long-term Outcome Prediction**          | `longterm_prediction` | Can we predict **alive and at home** / **functional independence** at 6–24 months post-injury?                                                                           | Logistic regression, gradient boosting; calibration; decision curves                                       | 🟡 in progress |
 | **C. Equity & Clinical Utility**             | `equity_utility`      | Do predictions and clusters **generalize** and perform equitably across subgroups (e.g., age bands, sex, comorbidity/frailty strata), and do they offer **net benefit**? | Subgroup performance; PROGRESS-Plus analyses; decision curve analysis; sensitivity analyses                                        | 🟡 in progress |
 
 The three projects share: cohort definition, feature registry, evaluation suite, and export conventions.
+
+----
+### Project Scripts
+
+**A. Pre-injury Health Clusters & Outcomes** 
+- **Aim1_OG_KProto_Frail.py** - code to determine the optimal number of clusters and generate the optimal clusters on the *frail* training data.
+- **Aim1_OG_Cluster_Description_Frailty_Final.py** - code to determine the optimal number of clusters and generate the optimal clusters on the *frail* data (entire cohort). These are the final clusters. 
+- **Aim1_OG_Cluster_Description_Frailty_Final.py** - code to determine the optimal number of clusters and generate the optimal clusters on the *non-frail* training data.
+- **Aim1_OG_Cluster_Description_Frailty_Final.py** - code to determine the optimal number of clusters and generate the optimal clusters on the *non-frail* data (entire cohort). These are the final clusters. 
+- **Aim1_OG_Clusters_Outcomes_Final.py** - code to evaluate the outcomes (survival and functional independence) across all clusters generated. 
+- **Aim1_OG_Cluster_Description_Frailty_Final.py** - code to describe the projects included across all clusters generated. 
+
+*Note that the project scripts for the remaining two thesis projects are not yet published*
 
 ----
 ### Data Access & Governance
