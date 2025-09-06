@@ -21,6 +21,7 @@ The three projects share: cohort definition, feature registry, evaluation suite,
 
 
 **Data Access & Governance**
+
 Data Source: Provincial/Regional trauma registry linked with health administrative data (housed at ICES) for community-dwelling adults ≥65 years admitted with moderate/severe injury (ISS > 9), 2015–2023. Access is restricted and analyses are performed within an approved secure environment (e.g., a data custodian’s enclave).
 
 This repository includes:
@@ -31,6 +32,7 @@ This repository includes:
 This repository does not include:
 - Raw data or row-level outputs.
 - Secure paths 
+
 
 **License**
 - Code: 
