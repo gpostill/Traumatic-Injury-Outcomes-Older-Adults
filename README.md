@@ -4,7 +4,7 @@
 This repository hosts three related projects that study long-term outcomes after injury in older adults. All projects draw on the same data source and use a shared codebase for ingestion, validation, preprocessing, metrics, and figure/table exports. The structure keeps methods consistent across projects while allowing each to evolve independently.
 
 ----
-**Repository Goals**
+## Repository Goals
 -  Provide a single, consistent pipeline for cohort construction, feature engineering, model training, and reporting across all projects.
 -  Ensure compliance with privacy, data-sharing, and ethics requirements (no identifiable data leaves the secure environment).
 -  Make outputs manuscript-ready (stable file names for tables/figures, vector graphics).
