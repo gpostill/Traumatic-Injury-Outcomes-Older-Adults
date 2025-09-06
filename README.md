@@ -11,7 +11,8 @@ This repository hosts three related projects that study long-term outcomes after
 -  Standardize fairness, calibration, and clinical utility assessment across projects.
 
 ----
-**Thesis Project Overview**
+### Thesis Project Overview
+
 | Project                                      | Slug                  | Core question                                                                                                                                                            | Primary methods                                                                                                                    | Status         |
 | -------------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | **A. Pre-injury Health Clusters & Outcomes** | `preinjury_clusters`  | Can unsupervised ML on **pre-injury** data reveal clinically meaningful clusters of older adults that predict survival and functional independence?                      | Feature construction from 2-yr lookback; clustering (e.g., OPTICS/K-Prototypes/UMAP); cluster stability; association with outcomes | 🟢 active      |
@@ -21,7 +22,7 @@ This repository hosts three related projects that study long-term outcomes after
 The three projects share: cohort definition, feature registry, evaluation suite, and export conventions.
 
 ----
-**Data Access & Governance**
+### Data Access & Governance
 
 Data Source: Provincial/Regional trauma registry linked with health administrative data (housed at ICES) for community-dwelling adults ≥65 years admitted with moderate/severe injury (ISS > 9), 2015–2023. Access is restricted and analyses are performed within an approved secure environment (e.g., a data custodian’s enclave).
 
@@ -35,13 +36,15 @@ This repository does not include:
 - Secure paths 
 
 ----
-**License**
+### License
 - Code: 
 - Docs (text/figures, self authored): CC-BY 4.0
 - Data: Not included; governed by data custodian agreements and ethics approvals
-- 
+  
 ----
-**Contact**
+### Contact
 Gemma Postill — MD/PhD Candidate
+
 gemma.postill@utoronto.ca
+
 https://orcid.org/0000-0001-6185-995X
