@@ -1,5 +1,5 @@
 # Traumatic-Injury-Outcomes-Older-Adults
-
+----
 
 This repository hosts three related projects that study long-term outcomes after injury in older adults. All projects draw on the same data source and use a shared codebase for ingestion, validation, preprocessing, metrics, and figure/table exports. The structure keeps methods consistent across projects while allowing each to evolve independently.
 
@@ -9,6 +9,7 @@ This repository hosts three related projects that study long-term outcomes after
 -  Ensure compliance with privacy, data-sharing, and ethics requirements (no identifiable data leaves the secure environment).
 -  Make outputs manuscript-ready (stable file names for tables/figures, vector graphics).
 -  Standardize fairness, calibration, and clinical utility assessment across projects.
+
 
 **Thesis Project Overview**
 | Project                                      | Slug                  | Core question                                                                                                                                                            | Primary methods                                                                                                                    | Status         |
