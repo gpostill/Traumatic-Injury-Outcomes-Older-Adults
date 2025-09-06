@@ -1,5 +1,5 @@
-# Traumatic-Injury-Outcomes-Older-Adults
-----
+# Traumatic Injury Outcomes Older Adults
+--
 
 This repository hosts three related projects that study long-term outcomes after injury in older adults. All projects draw on the same data source and use a shared codebase for ingestion, validation, preprocessing, metrics, and figure/table exports. The structure keeps methods consistent across projects while allowing each to evolve independently.
 
