@@ -38,13 +38,11 @@ This repository does not include:
 ----
 ### License
 - Code: 
-- Docs (text/figures, self authored): CC-BY 4.0
+- Docs (text/figures): CC-BY 4.0
 - Data: Not included; governed by data custodian agreements and ethics approvals
   
 ----
 ### Contact
 Gemma Postill — MD/PhD Candidate
-
-gemma.postill@utoronto.ca
-
-https://orcid.org/0000-0001-6185-995X
+  gemma.postill@utoronto.ca
+  https://orcid.org/0000-0001-6185-995X
