@@ -37,6 +37,11 @@ This repository does not include:
 
 ----
 ### License
+When citing this repository, please use the following: 
+DOI: 10.5281/zenodo.17268143
+
+----
+### License
 - Code: 
 - Docs (text/figures): CC-BY 4.0
 - Data: Not included; governed by data custodian agreements and ethics approvals
